@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-
-"""model user class"""
-
+"""Defines the User class."""
 from models.base_model import BaseModel
 
 
-"""The User class is a subclass
-of BaseModel and represents a
-user with email, password, first name,
-and last name attributes."""
-
-
 class User(BaseModel):
+    """Represent a User.
+
+    Attributes:
+        email (str): The email of the user.
+        password (str): The password of the user.
+        first_name (str): The first name of the user.
+        last_name (str): The last name of the user.
+    """
 
     email = ""
     password = ""
